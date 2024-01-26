@@ -15,7 +15,7 @@ menuItems:
 clientLogo:
   url: /atomica.logo.svg
   alt: ''
-header: Insurance Safety Module
+header: LandX Insurance Safety Module
 poweredByHeader: Powered by
 poweredByLogo:
   url: /atomica.logo.svg
