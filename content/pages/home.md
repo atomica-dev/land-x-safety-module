@@ -3,6 +3,9 @@ logo:
   url: /atomica.logo.svg
   alt: atomica
 menuItems:
+  - title: Back to LandX
+    url: 'https://www.landx.fi/dashboard/'
+    _template: home
   - title: Stake & Earn
     url: /
     _template: home
