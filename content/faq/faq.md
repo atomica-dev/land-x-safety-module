@@ -7,7 +7,7 @@ menuItems:
   - title: FAQ
     url: /faq
     _template: faq
-title: Frequently Asked Questions
+title: LandX Safety Module Frequently Asked Questions
 tabs:
   - title: Safety Module
     items:
@@ -71,7 +71,7 @@ tabs:
   - title: For Projects / DAOs
 items: []
 content: >
-  ###### Safety Modules powered by   ![Atomica logo](/atomica.logo.small.svg)
-  © 2024 Atomica. All rights reserved.
+  ###### Safety Modules powered by   ![Atomica logo](/atomica.logo.small.svg) ©
+  2024 Atomica. All rights reserved.
 ---
 
