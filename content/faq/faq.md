@@ -12,29 +12,37 @@ tabs: []
 items:
   - header: What is LandX Safety Module?
     content: >
-      LandX Safety Module is a widely used safety mechanism to protect users of
-      leading DeFi Protocols.\
+      The [LandX Safety Module](https://insurance.landx.fi/ "LandX Safety
+      Module") is a widely used safety mechanism to protect users of leading
+      DeFi Protocols.\
 
-      Similar to Aave Safety module, LandX Safety Module is a smart
-      contract-based security layer made of smart contracts and staked assets
-      which provides protection to the LandX Protocol and its users.
-
-
-      For the users of LandX protocol, LandX Safety Module provides asset-backed
-      guarantees of safety and soundness.
-
-
-      For the stakers, Safety Module provides a selection of staking pools which
-      provide yield funded by risk premiums paid by LandX users and rewards from
-      LandX in exchange for providing a stake and sharing the risks with other
-      stakers. Just like on most staking platforms, there is a small probability
-      that stake may get slashed should LandX protocol suffer from a shortfall
-      event.
+      Similar to the [AAVE Safety
+      Module](https://docs.aave.com/aavenomics/safety-module "AAVE Safety
+      Module"), the [LandX Safety Module](insurance.landx.fi "LandX Safety
+      Module") is a smart contract-based security layer made of smart contracts
+      and staked assets that protects the [LandX Protocol](landx.fi "LandX
+      Protocol") and its users.
 
 
-      Staking Pool APY depends on supply & demand, and set programmatically,
-      just like interest rates in lending markets like Aave and Compound are set
-      programmatically based on utilization of capital pools.
+      For the users of the [LandX protocol](landx.fi "LandX protocol"), the
+      [LandX Safety Module](landx.fi "LandX Safety Module") provides
+      asset-backed guarantees of safety and soundness.
+
+
+      For the stakers, the Safety Module provides a selection of staking pools
+      that provide yield funded by risk premiums paid by [LandX](landx.fi
+      "LandX") users and rewards from [LandX](landx.fi "LandX") in exchange for
+      providing a stake and sharing the risks with other stakers. Just like on
+      most staking platforms, there is a small probability that stake may get
+      slashed should [LandX Protocol](https://insurance.landx.fi/ "LandX
+      Protocol") suffer from a Shortfall Event.
+
+
+      The Staking Pool APY depends on supply & demand, and is set
+      programmatically, just as like interest rates in lending markets such as
+      [AAVE](https://aave.com/ "AAVE") and [Compound](https://compound.finance/
+      "Compound") are set programmatically based on the utilization of capital
+      pools.
   - header: Why stake into LandX's Safety Module?
     content: >
       Earn Real Yield: Stakers receive risk premiums and rewards. Rewards are
