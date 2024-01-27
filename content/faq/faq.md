@@ -10,20 +10,6 @@ menuItems:
 title: LandX Safety Module Frequently Asked Questions
 tabs: []
 items:
-  - header: What can I do if the pool is Sold Out?
-    content: >
-      When the pool is Sold Out, (meaning that the pool has reached its maximum
-      capacity and amount of deposits equal its Pool Cap), you can either:
-
-      A) Choose another pool 
-
-      OR 
-
-      B) Wait until either somebody else exits the pool
-
-      OR
-
-      C) Watch for announcements of Pool Cap being increased.
   - header: What is LandX Safety Module?
     content: >
       LandX Safety Module is a widely used safety mechanism to protect users of
@@ -78,6 +64,20 @@ items:
       The Pool Cap is a limit of the maximum amount of tokens that can be
       deposited into a pool. If the Pool Cap is reached, this means the pool is
       "Sold Out" and no longer accepting liquidity.
+  - header: What can I do if the pool is Sold Out?
+    content: >
+      When the pool is Sold Out, (meaning that the pool has reached its maximum
+      capacity and amount of deposits equal its Pool Cap), you can either:
+
+      A) Choose another pool 
+
+      OR 
+
+      B) Wait until either somebody else exits the pool
+
+      OR
+
+      C) Watch for announcements of Pool Cap being increased.
 content: >
   ###### Safety Modules powered by   ![Atomica logo](/atomica.logo.small.svg) ©
   2024 Atomica. All rights reserved.
