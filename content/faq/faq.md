@@ -10,6 +10,13 @@ menuItems:
 title: LandX Safety Module Frequently Asked Questions
 tabs: []
 items:
+  - header: What do stakers get in return?
+    content: >
+      In exchange for staking token into Safety Module stakers receive risk
+      premium payments paid by LandX users, and rewards from LandX and LandX
+      partners. You can claim the risk premium payments rewards at any time.
+
+      Most pools give risk premiums in USDC, and rewards in LNDX/xToken. 
   - header: What is LandX Safety Module?
     content: >
       LandX Safety Module is a widely used safety mechanism to protect users of
