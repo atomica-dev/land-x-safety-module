@@ -71,9 +71,9 @@ items:
       withdrawal transaction 24 hours (1 day) later.
   - header: What is a Pool Cap (pool is Sold Out)?
     content: >
-      The Pool Cap is a limit of the maximum amount of tokens that can be
-      deposited into a pool. If the Pool Cap is reached, this means the pool is
-      "Sold Out" and no longer accepting liquidity.
+      The Pool Cap is a limit on the maximum amount of tokens that can be
+      deposited into a pool. If the Pool Cap is reached, it means that the pool
+      is "Sold Out" and is no longer accepting liquidity.
   - header: What can I do if the pool is Sold Out?
     content: >
       When the pool is Sold Out, (meaning that the pool has reached its maximum
