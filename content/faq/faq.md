@@ -45,15 +45,15 @@ items:
       pools.
   - header: Why stake into LandX's Safety Module?
     content: >
-      Earn Real Yield: Stakers receive risk premiums and rewards. Rewards are
-      accrued in real-time in exchange for adding liquidity into the Safety
-      Module.
+      **Earn Real Yield**: Stakers receive risk premiums and rewards. Rewards
+      are accrued in real time in exchange for adding liquidity to the [Safety
+      Module](insurance.landx.fi "Safety Module").
 
 
-      Diversify Your Portfolio: Safety Module offers a unique chance to
-      diversify your portfolio with an uncorrelated asset (Safety Module Pool
-      Token), while actively contributing to the safety and stability of the
-      Web3 ecosystem.
+      **Diversify Your Portfolio**: The [Safety Module](insurance.landx.fi
+      "Safety Module") offers a unique chance to diversify your portfolio with
+      an uncorrelated asset (Safety Module Pool Token), while actively
+      contributing to the safety and stability of the Web3 ecosystem.
   - header: What do stakers get in return?
     content: >
       In exchange for staking token into Safety Module stakers receive risk
