@@ -65,9 +65,9 @@ items:
       Most pools give risk premiums in USDC, and rewards in LNDX/xToken.
   - header: What is a Cooldown Period?
     content: >
-      Stakers can withdraw their funds after a cooldown period specified in the
+      Stakers can withdraw their funds after a cooldown period specified on the
       Pool Details page. For example, if the pool has a Cooldown Period of 1
-      day, and you send a request for withdrawal now, you can execute the
+      day, and you submit a withdrawal request now, you can execute the
       withdrawal transaction 24 hours (1 day) later.
   - header: What is a Pool Cap (pool is Sold Out)?
     content: >
