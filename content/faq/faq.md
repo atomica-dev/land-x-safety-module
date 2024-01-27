@@ -14,11 +14,12 @@ items:
     content: >
       LNDX token holders are protected because the market the price of the LNDX
       token depends on current and future [LandX Protocol](landx.fi "LandX
-      Protocol") fees. In turn, LandX Protocol fees are generated when xTokens
-      are attractive to mint and hold. Because the [LandX Safety
-      Module](insurance.landx.fi "LandX Safety Module") protects xToken holders,
-      [LandX Protocol]() Revenue is no longer at risk of losing Protocol Revenue
-      due to natural weather risks and climate change.  Because LNDX Protocol
+      Protocol") fees. In turn, [LandX Protocol](landx.fi "LandX Protocol") fees
+      are generated when xTokens are attractive to mint and hold. Because the
+      [LandX Safety Module](insurance.landx.fi "LandX Safety Module") protects
+      xToken holders, [LandX Protocol](landx.fi "LandX Protocol") Revenue is no
+      longer at risk of losing Protocol Revenue due to natural weather risks and
+      climate change. Because [LandX Protocol](landx.fi "LandX Protocol")
       Revenue is now protected, the LNDX token becomes much safer to hold and
       stake for anyone who wants to participate in an infrastructure layer that
       powers the next generation of Real World Asset (RWA) assets and the
