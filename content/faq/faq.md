@@ -10,12 +10,11 @@ menuItems:
 title: LandX Safety Module Frequently Asked Questions
 tabs: []
 items:
-  - header: What is a Cooldown Period?
+  - header: What is a Pool Cap (pool is Sold Out)?
     content: >
-      Stakers can withdraw their funds after a cooldown period specified in the
-      Pool Details page. For example, if the pool has a Cooldown Period of 1
-      day, and you send a request for withdrawal now, you can execute the
-      withdrawal transaction 24 hours (1 day) later.
+      The Pool Cap is a limit of the maximum amount of tokens that can be
+      deposited into a pool. If the Pool Cap is reached, this means the pool is
+      "Sold Out" and no longer accepting liquidity.
   - header: What is LandX Safety Module?
     content: >
       LandX Safety Module is a widely used safety mechanism to protect users of
@@ -59,6 +58,12 @@ items:
       partners. You can claim the risk premium payments rewards at any time.
 
       Most pools give risk premiums in USDC, and rewards in LNDX/xToken. 
+  - header: What is a Cooldown Period?
+    content: >
+      Stakers can withdraw their funds after a cooldown period specified in the
+      Pool Details page. For example, if the pool has a Cooldown Period of 1
+      day, and you send a request for withdrawal now, you can execute the
+      withdrawal transaction 24 hours (1 day) later.
 content: >
   ###### Safety Modules powered by   ![Atomica logo](/atomica.logo.small.svg) ©
   2024 Atomica. All rights reserved.
