@@ -10,23 +10,6 @@ menuItems:
 title: LandX Safety Module Frequently Asked Questions
 tabs: []
 items:
-  - header: What is a Shortfall Event?
-    content: >
-      A Shortfall Event may occur when the farmer who minted the xToken
-      experiences a loss of crop revenue, which which is their primary source of
-      cash used to repay their obligations. While the xToken is backed by both
-      farmland real estate and a share of the future crop, the loss of the crop
-      could be devastating to the farmer, potentially rendering them unable to
-      repay. 
-
-
-      *A second type of Shortfall Event is hacks and bugs, or bug bounty
-      payouts, where the payouts are so large and severe that the value of the
-      LandX Insurance Fund is insufficient to cover them. For example, if a
-      whitehat discovers a critical bug, and is eligible for a bug bounty of
-      $100k, but the LandX Insurance Fund is only $80k. A $100k payout is so
-      large that the LandX Insurance Fund is completely depleted, and there are
-      not enough funds to pay the whitehat the full bounty amount.*
   - header: What is LandX Safety Module?
     content: >
       LandX Safety Module is a widely used safety mechanism to protect users of
@@ -153,6 +136,23 @@ items:
       repaid by withdrawing of assets from the pools of capital backing the
       [Safety Module](insurance.landx.fi "Safety Module") in an amount equal to
       the $ value of the crop loss.
+  - header: What is a Shortfall Event?
+    content: >
+      A Shortfall Event may occur when the farmer who minted the xToken
+      experiences a loss of crop revenue, which which is their primary source of
+      cash used to repay their obligations. While the xToken is backed by both
+      farmland real estate and a share of the future crop, the loss of the crop
+      could be devastating to the farmer, potentially rendering them unable to
+      repay. 
+
+
+      *A second type of Shortfall Event is hacks and bugs, or bug bounty
+      payouts, where the payouts are so large and severe that the value of the
+      LandX Insurance Fund is insufficient to cover them. For example, if a
+      whitehat discovers a critical bug, and is eligible for a bug bounty of
+      $100k, but the LandX Insurance Fund is only $80k. A $100k payout is so
+      large that the LandX Insurance Fund is completely depleted, and there are
+      not enough funds to pay the whitehat the full bounty amount.*
 content: >
   ###### Safety Modules powered by   ![Atomica logo](/atomica.logo.small.svg) ©
   2024 Atomica. All rights reserved.
