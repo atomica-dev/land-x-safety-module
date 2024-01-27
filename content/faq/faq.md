@@ -10,20 +10,6 @@ menuItems:
 title: LandX Safety Module Frequently Asked Questions
 tabs: []
 items:
-  - header: How does the LandX Safety Module protect LNDX token holders?
-    content: >
-      LNDX token holders are protected because the market the price of the LNDX
-      token depends on current and future [LandX Protocol](landx.fi "LandX
-      Protocol") fees. In turn, [LandX Protocol](landx.fi "LandX Protocol") fees
-      are generated when xTokens are attractive to mint and hold. Because the
-      [LandX Safety Module](insurance.landx.fi "LandX Safety Module") protects
-      xToken holders, [LandX Protocol](landx.fi "LandX Protocol") Revenue is no
-      longer at risk of losing Protocol Revenue due to natural weather risks and
-      climate change. Because [LandX Protocol](landx.fi "LandX Protocol")
-      Revenue is now protected, the LNDX token becomes much safer to hold and
-      stake for anyone who wants to participate in an infrastructure layer that
-      powers the next generation of Real World Asset (RWA) assets and the
-      financing of the global food supply chain.
   - header: What is LandX Safety Module?
     content: >
       LandX Safety Module is a widely used safety mechanism to protect users of
@@ -124,6 +110,20 @@ items:
       unique layer of protection, ensuring that the xToken is always be
       over-collateralized, protecting xToken holders from such unlikely but
       still probable events. 
+  - header: How does the LandX Safety Module protect LNDX token holders?
+    content: >
+      LNDX token holders are protected because the market the price of the LNDX
+      token depends on current and future [LandX Protocol](landx.fi "LandX
+      Protocol") fees. In turn, [LandX Protocol](landx.fi "LandX Protocol") fees
+      are generated when xTokens are attractive to mint and hold. Because the
+      [LandX Safety Module](insurance.landx.fi "LandX Safety Module") protects
+      xToken holders, [LandX Protocol](landx.fi "LandX Protocol") Revenue is no
+      longer at risk of losing Protocol Revenue due to natural weather risks and
+      climate change. Because [LandX Protocol](landx.fi "LandX Protocol")
+      Revenue is now protected, the LNDX token becomes much safer to hold and
+      stake for anyone who wants to participate in an infrastructure layer that
+      powers the next generation of Real World Asset (RWA) assets and the
+      financing of the global food supply chain.
 content: >
   ###### Safety Modules powered by   ![Atomica logo](/atomica.logo.small.svg) ©
   2024 Atomica. All rights reserved.
