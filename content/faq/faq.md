@@ -10,6 +10,23 @@ menuItems:
 title: LandX Safety Module Frequently Asked Questions
 tabs: []
 items:
+  - header: What is a Shortfall Event?
+    content: >
+      A Shortfall Event may occur when the farmer who minted the xToken
+      experiences a loss of crop revenue, which which is their primary source of
+      cash used to repay their obligations. While the xToken is backed by both
+      farmland real estate and a share of the future crop, the loss of the crop
+      could be devastating to the farmer, potentially rendering them unable to
+      repay. 
+
+
+      *A second type of Shortfall Event is hacks and bugs, or bug bounty
+      payouts, where the payouts are so large and severe that the value of the
+      LandX Insurance Fund is insufficient to cover them. For example, if a
+      whitehat discovers a critical bug, and is eligible for a bug bounty of
+      $100k, but the LandX Insurance Fund is only $80k. A $100k payout is so
+      large that the LandX Insurance Fund is completely depleted, and there are
+      not enough funds to pay the whitehat the full bounty amount.*
   - header: What is LandX Safety Module?
     content: >
       LandX Safety Module is a widely used safety mechanism to protect users of
@@ -39,7 +56,7 @@ items:
     content: >
       Earn Real Yield: Stakers receive risk premiums and rewards. Rewards are
       accrued in real-time in exchange for adding liquidity into the Safety
-      Module.  
+      Module.
 
 
       Diversify Your Portfolio: Safety Module offers a unique chance to
@@ -52,7 +69,7 @@ items:
       premium payments paid by LandX users, and rewards from LandX and LandX
       partners. You can claim the risk premium payments rewards at any time.
 
-      Most pools give risk premiums in USDC, and rewards in LNDX/xToken. 
+      Most pools give risk premiums in USDC, and rewards in LNDX/xToken.
   - header: What is a Cooldown Period?
     content: >
       Stakers can withdraw their funds after a cooldown period specified in the
@@ -69,9 +86,9 @@ items:
       When the pool is Sold Out, (meaning that the pool has reached its maximum
       capacity and amount of deposits equal its Pool Cap), you can either:
 
-      A) Choose another pool 
+      A) Choose another pool
 
-      OR 
+      OR
 
       B) Wait until either somebody else exits the pool
 
@@ -83,7 +100,7 @@ items:
       xToken holders are protected because the assets backing the xToken
       (farmland and future crops) are protected against loss where there debt of
       xTokens can't be repaid, and the collateral underlying an individual
-      xToken debt position is no longer as valuable. 
+      xToken debt position is no longer as valuable.
 
 
       The market price of xTokens is insulated from the potential loss of the
@@ -93,7 +110,7 @@ items:
       of the crop. When that happens, there is a small probability that the
       agricultural crop producer (farmer) will not have any cash on hand to
       repay  the debt denominated in xToken, which introduces the risk of
-      shortfall events for the [LandX Protocol](landx.fi "LandX Protocol"). 
+      shortfall events for the [LandX Protocol](landx.fi "LandX Protocol").
 
 
       The [Safety Module](insurance.landx.fi "Safety Module") allows the [LandX
@@ -109,7 +126,7 @@ items:
       payout equal to the $ value of the lost crop. This feature provides a
       unique layer of protection, ensuring that the xToken is always be
       over-collateralized, protecting xToken holders from such unlikely but
-      still probable events. 
+      still probable events.
   - header: How does the LandX Safety Module protect LNDX token holders?
     content: >
       LNDX token holders are protected because the market the price of the LNDX
