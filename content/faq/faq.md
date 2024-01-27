@@ -10,38 +10,19 @@ menuItems:
 title: LandX Safety Module Frequently Asked Questions
 tabs: []
 items:
-  - header: How does the LandX Safety Module protect xToken holders?
+  - header: How does the LandX Safety Module protect LNDX token holders?
     content: >
-      xToken holders are protected because the assets backing the xToken
-      (farmland and future crops) are protected against loss where there debt of
-      xTokens can't be repaid, and the collateral underlying an individual
-      xToken debt position is no longer as valuable. 
-
-
-      The market price of xTokens is insulated from the potential loss of the
-      underlying collateral. Each xToken is backed by farmland and future
-      harvests. While the value of farmland does not change rapidly, there is a
-      small probability that the crop in a given year will be lost, up to 100%
-      of the crop. When that happens, there is a small probability that the
-      agricultural crop producer (farmer) will not have any cash on hand to
-      repay  the debt denominated in xToken, which introduces the risk of
-      shortfall events for the [LandX Protocol](landx.fi "LandX Protocol"). 
-
-
-      The [Safety Module](insurance.landx.fi "Safety Module") allows the [LandX
-      Protocol](landx.fi "LandX Protocol") to fully transfer such risk to 3rd
-      party stakers who stake their assets in exchange for risk premiums paid by
-      [LandX](landx.fi "LandX") users and rewards from [LandX](landx.fi "LandX")
-      and [LandX](landx.fi "LandX") partners.
-
-
-      As a result, should the loss of crop caused by weather events and climate
-      change (such as temperature being too hot, too cold, too much or too
-      little rain), [LandX Protocol](landx.fi "LandX Protocol") will receive a
-      payout equal to the $ value of the lost crop. This feature provides a
-      unique layer of protection, ensuring that the xToken is always be
-      over-collateralized, protecting xToken holders from such unlikely but
-      still probable events. 
+      LNDX token holders are protected because the market the price of the LNDX
+      token depends on current and future [LandX Protocol](landx.fi "LandX
+      Protocol") fees. In turn, LandX Protocol fees are generated when xTokens
+      are attractive to mint and hold. Because the [LandX Safety
+      Module](insurance.landx.fi "LandX Safety Module") protects xToken holders,
+      [LandX Protocol]() Revenue is no longer at risk of losing Protocol Revenue
+      due to natural weather risks and climate change.  Because LNDX Protocol
+      Revenue is now protected, the LNDX token becomes much safer to hold and
+      stake for anyone who wants to participate in an infrastructure layer that
+      powers the next generation of Real World Asset (RWA) assets and the
+      financing of the global food supply chain.
   - header: What is LandX Safety Module?
     content: >
       LandX Safety Module is a widely used safety mechanism to protect users of
@@ -110,6 +91,38 @@ items:
       OR
 
       C) Watch for announcements of Pool Cap being increased.
+  - header: How does the LandX Safety Module protect xToken holders?
+    content: >
+      xToken holders are protected because the assets backing the xToken
+      (farmland and future crops) are protected against loss where there debt of
+      xTokens can't be repaid, and the collateral underlying an individual
+      xToken debt position is no longer as valuable. 
+
+
+      The market price of xTokens is insulated from the potential loss of the
+      underlying collateral. Each xToken is backed by farmland and future
+      harvests. While the value of farmland does not change rapidly, there is a
+      small probability that the crop in a given year will be lost, up to 100%
+      of the crop. When that happens, there is a small probability that the
+      agricultural crop producer (farmer) will not have any cash on hand to
+      repay  the debt denominated in xToken, which introduces the risk of
+      shortfall events for the [LandX Protocol](landx.fi "LandX Protocol"). 
+
+
+      The [Safety Module](insurance.landx.fi "Safety Module") allows the [LandX
+      Protocol](landx.fi "LandX Protocol") to fully transfer such risk to 3rd
+      party stakers who stake their assets in exchange for risk premiums paid by
+      [LandX](landx.fi "LandX") users and rewards from [LandX](landx.fi "LandX")
+      and [LandX](landx.fi "LandX") partners.
+
+
+      As a result, should the loss of crop caused by weather events and climate
+      change (such as temperature being too hot, too cold, too much or too
+      little rain), [LandX Protocol](landx.fi "LandX Protocol") will receive a
+      payout equal to the $ value of the lost crop. This feature provides a
+      unique layer of protection, ensuring that the xToken is always be
+      over-collateralized, protecting xToken holders from such unlikely but
+      still probable events. 
 content: >
   ###### Safety Modules powered by   ![Atomica logo](/atomica.logo.small.svg) ©
   2024 Atomica. All rights reserved.
