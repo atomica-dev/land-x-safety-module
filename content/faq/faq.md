@@ -10,32 +10,6 @@ menuItems:
 title: LandX Safety Module Frequently Asked Questions
 tabs: []
 items:
-  - header: What is Atomica?
-    content: >
-      [Atomica.org](Atomica.org "Atomica.org") is a Web3 protocol to deploy
-      two-sided insurance markets.
-
-
-      Using [Atomica.org](Atomica.org "Atomica.org"), DeFi protocols can deploy,
-      bootstrap and manage their own Safety Module. For example, protocols like
-      [LandX](Landx.fi "LandX") can deploy and embed protection and insurance of
-      any kind, including smart contract hacks/bugs, stablecoins and LSDs
-      de-pegging, economic attacks, oracle failure, etc., and even boost the
-      amount of Bug Bounties they offer using 3rd party capital from depositors
-      in their Safety Module.
-
-
-      [Atomica's](Atomica.org "Atomica.org") mission is to reduce risk for DeFi
-      users by offering a range of protection options and to provide capital
-      efficiency for liquidity providers (stakers).
-
-
-      [Atomica's](Atomica.org "Atomica.org") research and development has been
-      funded by grants from [Maker DAO](https://makerdao.com/ "Maker DAO"),
-      [Balancer](https://balancer.fi/ "Balancer"),
-      [Filecoin](https://filecoin.io "Filecoin"), [The
-      Graph](https://thegraph.com/ "The Graph") and
-      [Protofire](https://protofire.io/ "Protofire.io").
   - header: What is LandX Safety Module?
     content: >
       LandX Safety Module is a widely used safety mechanism to protect users of
@@ -179,6 +153,32 @@ items:
       $100k, but the LandX Insurance Fund is only $80k. A $100k payout is so
       large that the LandX Insurance Fund is completely depleted, and there are
       not enough funds to pay the whitehat the full bounty amount.*
+  - header: What is Atomica?
+    content: >
+      [Atomica.org](Atomica.org "Atomica.org") is a Web3 protocol to deploy
+      two-sided insurance markets.
+
+
+      Using [Atomica.org](Atomica.org "Atomica.org"), DeFi protocols can deploy,
+      bootstrap and manage their own Safety Module. For example, protocols like
+      [LandX](Landx.fi "LandX") can deploy and embed protection and insurance of
+      any kind, including smart contract hacks/bugs, stablecoins and LSDs
+      de-pegging, economic attacks, oracle failure, etc., and even boost the
+      amount of Bug Bounties they offer using 3rd party capital from depositors
+      in their Safety Module.
+
+
+      [Atomica's](Atomica.org "Atomica.org") mission is to reduce risk for DeFi
+      users by offering a range of protection options and to provide capital
+      efficiency for liquidity providers (stakers).
+
+
+      [Atomica's](Atomica.org "Atomica.org") research and development has been
+      funded by grants from [Maker DAO](https://makerdao.com/ "Maker DAO"),
+      [Balancer](https://balancer.fi/ "Balancer"),
+      [Filecoin](https://filecoin.io "Filecoin"), [The
+      Graph](https://thegraph.com/ "The Graph") and
+      [Protofire](https://protofire.io/ "Protofire.io").
 content: >
   ###### Safety Modules powered by   ![Atomica logo](/atomica.logo.small.svg) ©
   2024 Atomica. All rights reserved.
