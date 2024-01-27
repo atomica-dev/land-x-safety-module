@@ -10,18 +10,6 @@ menuItems:
 title: LandX Safety Module Frequently Asked Questions
 tabs: []
 items:
-  - header: >-
-      How does the LandX Safety Module protect farmers who receive financing
-      through the Landx Protocol?
-    content: >
-      Farmers who mint xTokens are protected because their repayment obligations
-      are no longer at risk due to crop losses caused by extreme weather and
-      climate change. If their farm experiences a crop loss due to weather
-      events and climate change (such as temperature being too hot, too cold,
-      too much or too little rain), their debt (denominated in xTokens) will be
-      repaid by withdrawing of assets from the pools of capital backing the
-      [Safety Module](insurance.landx.fi "Safety Module") in an amount equal to
-      the $ value of the crop loss.
   - header: What is LandX Safety Module?
     content: >
       LandX Safety Module is a widely used safety mechanism to protect users of
@@ -136,6 +124,18 @@ items:
       stake for anyone who wants to participate in an infrastructure layer that
       powers the next generation of Real World Asset (RWA) assets and the
       financing of the global food supply chain.
+  - header: >-
+      How does the LandX Safety Module protect farmers who receive financing
+      through the Landx Protocol?
+    content: >
+      Farmers who mint xTokens are protected because their repayment obligations
+      are no longer at risk due to crop losses caused by extreme weather and
+      climate change. If their farm experiences a crop loss due to weather
+      events and climate change (such as temperature being too hot, too cold,
+      too much or too little rain), their debt (denominated in xTokens) will be
+      repaid by withdrawing of assets from the pools of capital backing the
+      [Safety Module](insurance.landx.fi "Safety Module") in an amount equal to
+      the $ value of the crop loss.
 content: >
   ###### Safety Modules powered by   ![Atomica logo](/atomica.logo.small.svg) ©
   2024 Atomica. All rights reserved.
