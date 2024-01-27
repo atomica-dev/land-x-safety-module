@@ -19,27 +19,29 @@ items:
 
 
       The market price of xTokens is insulated from the potential loss of the
-      underlying collateral. Each xToken is backed by farmland and future crops.
-      While the value of farmland does not change rapidly, there is a small
-      probability that the crop in a given year will be lost, up to 100% of the
-      crop. When that happens, there is a small probability that the
+      underlying collateral. Each xToken is backed by farmland and future
+      harvests. While the value of farmland does not change rapidly, there is a
+      small probability that the crop in a given year will be lost, up to 100%
+      of the crop. When that happens, there is a small probability that the
       agricultural crop producer (farmer) will not have any cash on hand to
-      repay debt denominated in xToken, which introduces the risk of shortfall
-      events for the LandX Protocol. 
+      repay  the debt denominated in xToken, which introduces the risk of
+      shortfall events for the [LandX Protocol](landx.fi "LandX Protocol"). 
 
 
-      The Safety Module allows [LandX Protocol](landx.fi "LandX Protocol") to
-      fully transfer such risk to 3rd party stakers who stake their assets in
-      exchange for risk premiums paid by LandX users and rewards from LandX and
-      LandX partners.
+      The [Safety Module](insurance.landx.fi "Safety Module") allows the [LandX
+      Protocol](landx.fi "LandX Protocol") to fully transfer such risk to 3rd
+      party stakers who stake their assets in exchange for risk premiums paid by
+      [LandX](landx.fi "LandX") users and rewards from [LandX](landx.fi "LandX")
+      and [LandX](landx.fi "LandX") partners.
 
 
       As a result, should the loss of crop caused by weather events and climate
       change (such as temperature being too hot, too cold, too much or too
-      little rain), LandX Protocol will receive a payout equal to the $ value of
-      crop lost. This feature provides a unique layer of protection, ensuring
-      that xToken will always be overcollateralized, protecting xToken holders
-      from such unlikely but still probable events. 
+      little rain), [LandX Protocol](landx.fi "LandX Protocol") will receive a
+      payout equal to the $ value of the lost crop. This feature provides a
+      unique layer of protection, ensuring that the xToken is always be
+      over-collateralized, protecting xToken holders from such unlikely but
+      still probable events. 
   - header: What is LandX Safety Module?
     content: >
       LandX Safety Module is a widely used safety mechanism to protect users of
