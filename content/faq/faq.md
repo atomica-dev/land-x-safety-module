@@ -31,7 +31,10 @@ items:
 
 
       [Atomica's](Atomica.org "Atomica.org") research and development has been
-      funded by grants from Maker DAO, Balancer, Filecoin, The Graph and
+      funded by grants from [Maker DAO](https://makerdao.com/ "Maker DAO"),
+      [Balancer](https://balancer.fi/ "Balancer"),
+      [Filecoin](https://filecoin.io "Filecoin"), [The
+      Graph](https://thegraph.com/ "The Graph") and
       [Protofire](https://protofire.io/ "Protofire.io").
   - header: What is LandX Safety Module?
     content: >
