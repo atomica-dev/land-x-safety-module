@@ -10,6 +10,12 @@ menuItems:
 title: LandX Safety Module Frequently Asked Questions
 tabs: []
 items:
+  - header: What is a Cooldown Period?
+    content: >
+      Stakers can withdraw their funds after a cooldown period specified in the
+      Pool Details page. For example, if the pool has a Cooldown Period of 1
+      day, and you send a request for withdrawal now, you can execute the
+      withdrawal transaction 24 hours (1 day) later.
   - header: What is LandX Safety Module?
     content: >
       LandX Safety Module is a widely used safety mechanism to protect users of
