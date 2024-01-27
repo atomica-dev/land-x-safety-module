@@ -56,9 +56,11 @@ items:
       contributing to the safety and stability of the Web3 ecosystem.
   - header: What do stakers get in return?
     content: >
-      In exchange for staking token into Safety Module stakers receive risk
-      premium payments paid by LandX users, and rewards from LandX and LandX
-      partners. You can claim the risk premium payments rewards at any time.
+      In exchange for staking token into [Safety Module](insurance.landx.fi
+      "Safety Module") stakers receive risk premium payments paid by
+      [LandX](landx.fi "LandX") users, and rewards from [LandX](landx.fi
+      "LandX") and [LandX](landx.fi "LandX") partners. You can claim the risk
+      premium payments rewards at any time.
 
       Most pools give risk premiums in USDC, and rewards in LNDX/xToken.
   - header: What is a Cooldown Period?
