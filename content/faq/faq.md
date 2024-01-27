@@ -77,17 +77,18 @@ items:
   - header: What can I do if the pool is Sold Out?
     content: >
       When the pool is Sold Out, (meaning that the pool has reached its maximum
-      capacity and amount of deposits equal its Pool Cap), you can either:
+      capacity and the amount of deposits is equal to the Pool Cap), you can
+      either:
 
       A) Choose another pool
 
       OR
 
-      B) Wait until either somebody else exits the pool
+      B) Wait until either someone else leaves the pool
 
       OR
 
-      C) Watch for announcements of Pool Cap being increased.
+      C) Watch for announcements about raising the Pool Cap.
   - header: How does the LandX Safety Module protect xToken holders?
     content: >
       xToken holders are protected because the assets backing the xToken
