@@ -30,8 +30,8 @@ items:
         title: '# of Protected xTOKEN + LNDX Holders'
       - value: '660,479.9 kg'
         title: Protected xToken Collateral (Future Crop)
-      - value: '841'
-        title: 'Total Tillable Land Protected, ha'
+      - value: 841 ha
+        title: Total Tillable Land Protected
     updatedAt: 2024-01-28T23:00:00.000Z
     _template: dashboard
   - content: >
