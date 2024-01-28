@@ -43,7 +43,7 @@ items:
       "Frequently ask questions")
     _template: text
   - url: >-
-      https://app.atomica.org/pool-list-internal?chainId=42161&product=0xdffa95c17fcae00e7ce8f0bd7b9fc1792e3b3820-4&poolIdList=0x0ae684c27b674d9b73a2debbe4a72fabee5a173b&marketId=&featureOverrides=%7B%22poolList.showFilterPanel%22%3Afalse%2C%22poolList.columnConfigs.columnList%22%3A%5B%22chain-id%22%2C%22pool-name%22%2C%22pool-token%22%2C%22apy%22%2C%22capacity%22%2C%22controls%22%2C%22utilization%22%2C%22pool-limit%22%2C%22balance%22%2C%22rewards%22%2C%22data%22%5D%7D&labelOverrides=%7B%22poolList.columnConfigs.dataLabel%22%3A%22Stake%20to%3A%22%7D
+      https://app.atomica.org/pool-list-internal?chainId=42161&product=&poolTags=&poolIdList=0x0ae684c27b674d9b73a2debbe4a72fabee5a173b&marketId=&featureOverrides=%7B%22poolList.showFilterPanel%22%3Afalse%2C%22pool.sections.showAnalytics%22%3Afalse%2C%22pool.sections.showSettlement%22%3Afalse%2C%22pool.sections.showDetails%22%3Afalse%2C%22pool.sections.showMarkets%22%3Afalse%2C%22poolList.columnConfigs.columnList%22%3A%5B%22pool-name%22%2C%22pool-token%22%2C%22apy%22%2C%22capacity%22%2C%22utilization%22%2C%22pool-limit%22%2C%22balance%22%2C%22rewards%22%2C%22controls%22%5D%7D
     _template: poolWidget
   - content: >
       ###### Safety Modules powered by   ![Atomica
