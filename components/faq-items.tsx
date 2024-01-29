@@ -27,7 +27,7 @@ export function FaqItems(props: {
         {itemShownMap[index] && <div
           // @ts-ignore
           data-tina-field={tinaField(item, "content")}
-          className="pt-2 pb-4 text-sm font-light text-gray-700"
+          className="pt-2 pb-4 text-sm font-light text-gray-700 md-text"
         >
           <TinaMarkdown content={item?.content} />
 
