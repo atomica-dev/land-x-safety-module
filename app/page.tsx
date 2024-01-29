@@ -12,7 +12,6 @@ export default async function Home(props) {
       data={data}
       query={res.query}
       variables={res.variables}
-      homeData={data}
     />
   );
 }

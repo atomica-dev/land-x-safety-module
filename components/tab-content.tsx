@@ -26,7 +26,7 @@ export function TabContent(props: { items: Array<PageItems | PageTabsItems | nul
         const component = item as PageTabsItemsDashboard | PageItemsDashboard;
 
         return <div className="mb-4" key={index + item.__typename}
-          data-tina-field={tinaField(component, "dashboardItems", index)}
+          data-tina-field={tinaField(item)}
         ><Dashboard
             item={component}
           /></div>;
@@ -35,7 +35,7 @@ export function TabContent(props: { items: Array<PageItems | PageTabsItems | nul
         const component = item as PageTabsItemsText | PageItemsText;
 
         return <div
-          data-tina-field={tinaField(component, "content", index)}
+          data-tina-field={tinaField(component, "content")}
           className="mb-2 mx-6 text-gray-600 text-base md-text"
           key={index + item?.__typename}
         >
@@ -45,9 +45,8 @@ export function TabContent(props: { items: Array<PageItems | PageTabsItems | nul
       if (["PageTabsItemsMarketWidget", "PageItemsMarketWidget"].includes(item.__typename)) {
         const component = item as PageTabsItemsMarketWidget | PageItemsMarketWidget;
 
-        return <div className="mb-4 mx-6" key={index + item?.__typename}>
+        return <div className="mb-4 mx-6" key={index + item?.__typename} data-tina-field={tinaField(component, "url")}>
           <iframe
-            data-tina-field={tinaField(component, "url", index)}
             className="w-full"
             height={"800px"}
 
@@ -57,9 +56,8 @@ export function TabContent(props: { items: Array<PageItems | PageTabsItems | nul
       if (["PageTabsItemsPoolWidget", "PageItemsPoolWidget"].includes(item.__typename)) {
         const component = item as PageTabsItemsPoolWidget | PageItemsPoolWidget;
 
-        return <div className="mb-4 mx-6" key={index + item?.__typename}>
+        return <div className="mb-4 mx-6" key={index + item?.__typename} data-tina-field={tinaField(component, "url")}>
           <iframe
-            data-tina-field={tinaField(component, "url", index)}
             className="w-full"
             height={"800px"}
 

@@ -11,16 +11,16 @@ export function Page(props: {
   data: PageQuery;
   variables: object;
   query: string;
-  homeData: PageQuery;
+  homeData?: PageQuery;
 }) {
-  const { homeData = props.data } = props;
   const { data } = useTina(props);
   const [currentTabIndex, setCurrentTabIndex] = useState(0);
+  const homeData = (!props.homeData || props.data === props.homeData) ? data : props.homeData;
 
   return (
     <main className="flex min-h-screen flex-col items-center max-w-lg mx-auto">
       <PageHeader pageData={homeData}>
-        {homeData?.page.menuItems && <Menu items={homeData.page.menuItems} />}
+        {homeData?.page.menuItems && <div data-tina-field={tinaField(homeData.page, "menuItems")}><Menu items={homeData.page.menuItems} /></div>}
       </PageHeader>
 
       <div className="w-full flex flex-col">
