@@ -18,7 +18,7 @@ export function Page(props: {
   const [currentTabIndex, setCurrentTabIndex] = useState(0);
 
   return (
-    <main className="flex min-h-screen flex-col items-center">
+    <main className="flex min-h-screen flex-col items-center max-w-lg mx-auto">
       <PageHeader pageData={homeData}>
         {homeData?.page.menuItems && <Menu items={homeData.page.menuItems} />}
       </PageHeader>
