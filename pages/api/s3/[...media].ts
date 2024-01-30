@@ -2,10 +2,10 @@ import {
   mediaHandlerConfig,
   createMediaHandler,
 } from 'next-tinacms-s3/dist/handlers'
+import { AuthJsBackendAuthProvider, TinaAuthJSOptions } from 'tinacms-authjs';
+import databaseClient from '../../../tina/__generated__/databaseClient';
 
-import { isAuthorized } from '@tinacms/auth'
-
-export const config = mediaHandlerConfig
+export const config = mediaHandlerConfig;
 
 export default createMediaHandler({
   config: {
@@ -22,9 +22,16 @@ export default createMediaHandler({
     }
 
     try {
-      const user = await isAuthorized(req);
+      const auth = AuthJsBackendAuthProvider({
+        authOptions: TinaAuthJSOptions({
+          databaseClient: databaseClient,
+          secret: process.env.NEXTAUTH_SECRET!,
+        }),
+      });
 
-      return user?.verified ?? false;
+      const result = await auth.isAuthorized(req, _res);
+
+      return result.isAuthorized;
     } catch (e) {
       console.error(e);
 
