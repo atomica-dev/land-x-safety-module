@@ -35,7 +35,7 @@ export function Faq(props: {
           </div>
 
           <div className="flex flex-col w-full">
-          {data.faq.tabs?.length && <div className="w-full items-stretch flex flex-row border-b border-gray-300 mb-4 mt-8 ">
+          {data.faq.tabs?.length && <div className="w-full items-stretch flex flex-row border-b border-gray-300 mb-4 mt-8">
             {data.faq.tabs?.map((tab, index) => {
               return (
                 <div

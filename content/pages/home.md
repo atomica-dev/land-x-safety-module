@@ -49,6 +49,5 @@ items:
       ###### Safety Modules powered by   ![Atomica
       logo](/atomica.logo.small.svg)    © 2024 Atomica. All rights reserved.
     _template: text
-tabs: []
 ---
 

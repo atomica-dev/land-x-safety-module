@@ -26,12 +26,12 @@ export function Page(props: {
       <div className="w-full flex flex-col">
 
         <div className="w-full items-center flex flex-col">
-          {data.page.tabs?.length && <div className="w-full justify-center flex flex-row border-b border-gray-300 mb-4 mt-8 ">
+          {data.page.tabs?.length && <div className="w-full justify-center flex flex-row border-b border-gray-300 mb-4 mt-8">
             {data.page.tabs?.map((tab, index) => {
               return (
                 <div
                   key={tab?.title}
-                  className={`p-4 border border-gray-300 ${index === currentTabIndex ? "tab-header--current-tab bg-gray-300" : "text-gray-500"}`}
+                  className={`text-sm py-4 mr-6 ${index === currentTabIndex ? "tab-header--current-tab font-medium border-b-2 border-orange-700 text-black" : "text-gray-700"}`}
                   onClick={() => setCurrentTabIndex(index)}
                   data-tina-field={tinaField(tab!, "title")}
                 > {tab?.title}</div>);
