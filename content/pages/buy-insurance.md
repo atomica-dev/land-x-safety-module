@@ -12,7 +12,7 @@ items:
     updatedAt: 2024-01-25T11:01:05.000Z
     _template: dashboard
   - content: |
-      ## **Insurable risks**:
+      ## **Insurable risks**: 
     _template: text
   - content: "## **Insurance for the LandX.fi xToken / LANDX LP token holders:**\n\nAs\_an xToken / LNDX / veLNDX (staked LNDX) token holders, you can purchase insurance that will protect you and your assets from unlikely, but still probable, loss of funds if you are staking tokens into [LandX Smart Contracts](https://www.landx.fi/ \"LandX\"), [Uniswap](https://uniswap.org/ \"Uniswap\") or other DeFi protocols where LNDX or xTokens are used as collateral and that are on the official list of [LandX Finance](https://www.landx.fi/ \"LandX\") partners.\n\n## **Insurance for the LandX.fi farmers:**\n\nAs a Farmer, you can purchase additional insurance to protect your future crop and revenue - if your farm experiences loss of crop caused by weather events and climate change (such as temperature being too hot, too cold, too much or too little rain), you will receive compensation equal to the $ value of the crop lost.\n"
     _template: text
