@@ -13,7 +13,7 @@ menuItems:
     url: /faq
     _template: faq
 clientLogo:
-  url: 'https://reports.atomica.org/landX/LandX_logo_dashboard.svg'
+  url: 'https://reports.atomica.org/landX/LandX_Logo_WEB_06.png'
   alt: ''
 header: ''
 poweredByHeader: Powered by
