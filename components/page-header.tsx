@@ -1,7 +1,5 @@
 "use client";
 
-import Image from "next/image";
-
 import { tinaField } from "tinacms/dist/react";
 import { PageQuery } from "../tina/__generated__/types";
 
@@ -14,14 +12,13 @@ export function PageHeader(props: { pageData: PageQuery | undefined; children?: 
 
   return (<div className="py-2 z-10 w-full items-center justify-between text-sm flex border-b">
     <div className="ml-6 flex items-center text-sm">
-      {page.clientLogo?.url && <Image
+      {page.clientLogo?.url && <img
         data-tina-field={tinaField(page.clientLogo, "url")}
         className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
         src={page.clientLogo?.url || ""}
         alt={page.clientLogo?.alt || ""}
         width={100}
         height={20}
-        priority
       />}
 
       <div
@@ -42,14 +39,13 @@ export function PageHeader(props: { pageData: PageQuery | undefined; children?: 
         {page.poweredByHeader}
       </div>
 
-      {page.poweredByLogo?.url && <Image
+      {page.poweredByLogo?.url && <img
         data-tina-field={tinaField(page.poweredByLogo, "url")}
         className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
         src={page.poweredByLogo?.url || ""}
         alt={page.poweredByLogo?.alt || ""}
         width={120}
         height={24}
-        priority
       />}
     </div>
   </div>);
