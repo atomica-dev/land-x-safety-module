@@ -1,7 +1,4 @@
 ---
-logo:
-  url: /atomica.logo.svg
-  alt: atomica
 menuItems:
   - title: Back to LandX
     url: 'https://www.landx.fi/dashboard/'
@@ -16,7 +13,7 @@ menuItems:
     url: /faq
     _template: faq
 clientLogo:
-  url: /atomica.logo.svg
+  url: 'https://reports.atomica.org/landX/LandX_logo_dashboard.svg'
   alt: ''
 header: ''
 poweredByHeader: Powered by
