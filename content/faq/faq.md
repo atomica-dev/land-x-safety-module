@@ -1,1 +1,197 @@
+---
+header: FAQ
+menuItems:
+  - title: Home
+    url: /
+    _template: home
+  - title: FAQ
+    url: /faq
+    _template: faq
+title: LandX Safety Module Frequently Asked Questions
+tabs: []
+items:
+  - header: What is LandX Safety Module?
+    content: >
+      The [LandX Safety Module](https://insurance.landx.fi/ "LandX Safety
+      Module") is a widely used safety mechanism to protect users of leading
+      DeFi Protocols.\
+
+      Similar to the [AAVE Safety
+      Module](https://docs.aave.com/aavenomics/safety-module "AAVE Safety
+      Module"), the [LandX Safety Module](insurance.landx.fi "LandX Safety
+      Module") is a smart contract-based security layer made of smart contracts
+      and staked assets that protects the [LandX Protocol](landx.fi "LandX
+      Protocol") and its users.
+
+
+      For the users of the [LandX protocol](landx.fi "LandX protocol"), the
+      [LandX Safety Module](landx.fi "LandX Safety Module") provides
+      asset-backed guarantees of safety and soundness.
+
+
+      For the stakers, the Safety Module provides a selection of staking pools
+      that provide yield funded by risk premiums paid by [LandX](landx.fi
+      "LandX") users and rewards from [LandX](landx.fi "LandX") in exchange for
+      providing a stake and sharing the risks with other stakers. Just like on
+      most staking platforms, there is a small probability that stake may get
+      slashed should [LandX Protocol](https://insurance.landx.fi/ "LandX
+      Protocol") suffer from a Shortfall Event.
+
+
+      The Staking Pool APY depends on supply & demand, and is set
+      programmatically, just as like interest rates in lending markets such as
+      [AAVE](https://aave.com/ "AAVE") and [Compound](https://compound.finance/
+      "Compound") are set programmatically based on the utilization of capital
+      pools.
+  - header: Why stake into LandX's Safety Module?
+    content: >
+      **Earn Real Yield**: Stakers receive risk premiums and rewards. Rewards
+      are accrued in real time in exchange for adding liquidity to the [Safety
+      Module](insurance.landx.fi "Safety Module").
+
+
+      **Diversify Your Portfolio**: The [Safety Module](insurance.landx.fi
+      "Safety Module") offers a unique chance to diversify your portfolio with
+      an uncorrelated asset (Safety Module Pool Token), while actively
+      contributing to the safety and stability of the Web3 ecosystem.
+  - header: What do stakers get in return?
+    content: >
+      In exchange for staking token into [Safety Module](insurance.landx.fi
+      "Safety Module") stakers receive risk premium payments paid by
+      [LandX](landx.fi "LandX") users, and rewards from [LandX](landx.fi
+      "LandX") and [LandX](landx.fi "LandX") partners. You can claim the risk
+      premium payments rewards at any time.
+
+      Most pools give risk premiums in USDC, and rewards in LNDX/xToken.
+  - header: What is a Cooldown Period?
+    content: >
+      Stakers can withdraw their funds after a cooldown period specified on the
+      Pool Details page. For example, if the pool has a Cooldown Period of 1
+      day, and you submit a withdrawal request now, you can execute the
+      withdrawal transaction 24 hours (1 day) later.
+  - header: What is a Pool Cap (pool is Sold Out)?
+    content: >
+      The Pool Cap is a limit on the maximum amount of tokens that can be
+      deposited into a pool. If the Pool Cap is reached, it means that the pool
+      is "Sold Out" and is no longer accepting liquidity.
+  - header: What can I do if the pool is Sold Out?
+    content: >
+      When the pool is Sold Out, (meaning that the pool has reached its maximum
+      capacity and the amount of deposits is equal to the Pool Cap), you can
+      either:
+
+      A) Choose another pool
+
+      OR
+
+      B) Wait until either someone else leaves the pool
+
+      OR
+
+      C) Watch for announcements about raising the Pool Cap.
+  - header: How does the LandX Safety Module protect xToken holders?
+    content: >
+      xToken holders are protected because the assets backing the xToken
+      (farmland and future crops) are protected against loss where there debt of
+      xTokens can't be repaid, and the collateral underlying an individual
+      xToken debt position is no longer as valuable.
+
+
+      The market price of xTokens is insulated from the potential loss of the
+      underlying collateral. Each xToken is backed by farmland and future
+      harvests. While the value of farmland does not change rapidly, there is a
+      small probability that the crop in a given year will be lost, up to 100%
+      of the crop. When that happens, there is a small probability that the
+      agricultural crop producer (farmer) will not have any cash on hand to
+      repay  the debt denominated in xToken, which introduces the risk of
+      shortfall events for the [LandX Protocol](landx.fi "LandX Protocol").
+
+
+      The [Safety Module](insurance.landx.fi "Safety Module") allows the [LandX
+      Protocol](landx.fi "LandX Protocol") to fully transfer such risk to 3rd
+      party stakers who stake their assets in exchange for risk premiums paid by
+      [LandX](landx.fi "LandX") users and rewards from [LandX](landx.fi "LandX")
+      and [LandX](landx.fi "LandX") partners.
+
+
+      As a result, should the loss of crop caused by weather events and climate
+      change (such as temperature being too hot, too cold, too much or too
+      little rain), [LandX Protocol](landx.fi "LandX Protocol") will receive a
+      payout equal to the $ value of the lost crop. This feature provides a
+      unique layer of protection, ensuring that the xToken is always be
+      over-collateralized, protecting xToken holders from such unlikely but
+      still probable events.
+  - header: How does the LandX Safety Module protect LNDX token holders?
+    content: >
+      LNDX token holders are protected because the market the price of the LNDX
+      token depends on current and future [LandX Protocol](landx.fi "LandX
+      Protocol") fees. In turn, [LandX Protocol](landx.fi "LandX Protocol") fees
+      are generated when xTokens are attractive to mint and hold. Because the
+      [LandX Safety Module](insurance.landx.fi "LandX Safety Module") protects
+      xToken holders, [LandX Protocol](landx.fi "LandX Protocol") Revenue is no
+      longer at risk of losing Protocol Revenue due to natural weather risks and
+      climate change. Because [LandX Protocol](landx.fi "LandX Protocol")
+      Revenue is now protected, the LNDX token becomes much safer to hold and
+      stake for anyone who wants to participate in an infrastructure layer that
+      powers the next generation of Real World Asset (RWA) assets and the
+      financing of the global food supply chain.
+  - header: >-
+      How does the LandX Safety Module protect farmers who receive financing
+      through the Landx Protocol?
+    content: >
+      Farmers who mint xTokens are protected because their repayment obligations
+      are no longer at risk due to crop losses caused by extreme weather and
+      climate change. If their farm experiences a crop loss due to weather
+      events and climate change (such as temperature being too hot, too cold,
+      too much or too little rain), their debt (denominated in xTokens) will be
+      repaid by withdrawing of assets from the pools of capital backing the
+      [Safety Module](insurance.landx.fi "Safety Module") in an amount equal to
+      the $ value of the crop loss.
+  - header: What is a Shortfall Event?
+    content: >
+      A Shortfall Event may occur when the farmer who minted the xToken
+      experiences a loss of crop revenue, which which is their primary source of
+      cash used to repay their obligations. While the xToken is backed by both
+      farmland real estate and a share of the future crop, the loss of the crop
+      could be devastating to the farmer, potentially rendering them unable to
+      repay. 
+
+
+      *A second type of Shortfall Event is hacks and bugs, or bug bounty
+      payouts, where the payouts are so large and severe that the value of the
+      LandX Insurance Fund is insufficient to cover them. For example, if a
+      whitehat discovers a critical bug, and is eligible for a bug bounty of
+      $100k, but the LandX Insurance Fund is only $80k. A $100k payout is so
+      large that the LandX Insurance Fund is completely depleted, and there are
+      not enough funds to pay the whitehat the full bounty amount.*
+  - header: What is Atomica?
+    content: >
+      [Atomica.org](Atomica.org "Atomica.org") is a Web3 protocol to deploy
+      two-sided insurance markets.
+
+
+      Using [Atomica.org](Atomica.org "Atomica.org"), DeFi protocols can deploy,
+      bootstrap and manage their own Safety Module. For example, protocols like
+      [LandX](Landx.fi "LandX") can deploy and embed protection and insurance of
+      any kind, including smart contract hacks/bugs, stablecoins and LSDs
+      de-pegging, economic attacks, oracle failure, etc., and even boost the
+      amount of Bug Bounties they offer using 3rd party capital from depositors
+      in their Safety Module.
+
+
+      [Atomica's](Atomica.org "Atomica.org") mission is to reduce risk for DeFi
+      users by offering a range of protection options and to provide capital
+      efficiency for liquidity providers (stakers).
+
+
+      [Atomica's](Atomica.org "Atomica.org") research and development has been
+      funded by grants from [Maker DAO](https://makerdao.com/ "Maker DAO"),
+      [Balancer](https://balancer.fi/ "Balancer"),
+      [Filecoin](https://filecoin.io "Filecoin"), [The
+      Graph](https://thegraph.com/ "The Graph") and
+      [Protofire](https://protofire.io/ "Protofire.io").
+content: >
+  ###### Safety Modules powered by   ![Atomica logo](/atomica.logo.small.svg) ©
+  2024 Atomica. All rights reserved.
+---
 
