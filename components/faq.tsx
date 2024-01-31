@@ -20,7 +20,7 @@ export function Faq(props: {
   const [currentTabIndex, setCurrentTabIndex] = useState(0);
 
   return (
-    <main className="flex min-h-screen flex-col max-w-lg mx-auto">
+    <main className="flex min-h-screen flex-col max-w-screen-xl mx-auto">
       <PageHeader pageData={homeData}>
         {homeData?.page.menuItems && <Menu items={homeData.page.menuItems} />}
       </PageHeader>
