@@ -8,7 +8,6 @@ menuItems:
     url: /faq
     _template: faq
 title: LandX Safety Module Frequently Asked Questions
-tabs: []
 items:
   - header: What is LandX Safety Module?
     content: >
@@ -154,7 +153,7 @@ items:
       cash used to repay their obligations. While the xToken is backed by both
       farmland real estate and a share of the future crop, the loss of the crop
       could be devastating to the farmer, potentially rendering them unable to
-      repay. 
+      repay.
 
 
       *A second type of Shortfall Event is hacks and bugs, or bug bounty
