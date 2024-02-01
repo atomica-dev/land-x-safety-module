@@ -29,7 +29,7 @@ items:
         title: Protected xToken Collateral (Future Crop)
       - value: 841 ha
         title: Total Tillable Land Protected
-    updatedAt: 2024-01-28T23:00:00.000Z
+    updatedAt: 2024-01-31T23:00:00.000Z
     _template: dashboard
   - content: >
       For stakers, LandX Safety Module provides a selection of staking pools.
