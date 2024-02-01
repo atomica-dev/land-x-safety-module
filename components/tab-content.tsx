@@ -13,6 +13,7 @@ import {
 } from "../tina/__generated__/types";
 import { Dashboard } from "./dashboard";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
+import { RequestInsurance } from "./request-insurance";
 
 
 export function TabContent(props: { items: Array<PageItems | PageTabsItems | null> | null | undefined }) {
@@ -39,7 +40,11 @@ export function TabContent(props: { items: Array<PageItems | PageTabsItems | nul
           className="mb-2 mx-6 text-gray-600 text-base md-text"
           key={index + item?.__typename}
         >
-          <TinaMarkdown content={component?.content}/>
+          <TinaMarkdown
+            content={component?.content}
+            // @ts-ignore
+            components={{ RequestInsurance }}
+          />
         </div>;
       }
       if (["PageTabsItemsMarketWidget", "PageItemsMarketWidget"].includes(item.__typename)) {

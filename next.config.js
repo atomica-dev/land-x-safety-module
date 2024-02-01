@@ -15,10 +15,6 @@ module.exports = {
         destination: "/home",
       },
       {
-        source: "/faq",
-        destination: "/faq",
-      },
-      {
         source: "/admin",
         destination: "/admin/index.html",
       },

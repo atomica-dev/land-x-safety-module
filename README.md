@@ -10,7 +10,7 @@ Watch a 1-min demo [https://www.youtube.com/watch?v=h6LoJS3FFOA](https://www.you
 
 Use the following link to directly deploy this demo to Vercel. You will need a Vercel account and a GitHub personal access token (PAT) with access to the repository (once it has been created).
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fksvirsky%2Fsafu-module-template&env=GITHUB_PERSONAL_ACCESS_TOKEN,NEXTAUTH_SECRET&envDescription=Create%20a%20new%20GitHub%20PAT%20at%20https%3A%2F%2Fgithub.com%2Fsettings%2Fpersonal-access-tokens%2Fnew%20with%20content-access.%20See%20the%20self-hosted%20demo%20README%20for%20more%20information&envLink=https%3A%2F%2Fgithub.com%2Ftinacms%2Ftina-self-hosted-demo%2Fblob%2Fmain%2FREADME.md&project-name=tina-self-hosted-demo&repository-name=tina-self-hosted-demo&stores=%5B%7B%22type%22%3A%22kv%22%7D%5D&)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fksvirsky%2Fsafu-module-template&env=GITHUB_PERSONAL_ACCESS_TOKEN,NEXTAUTH_SECRET&envDescription=Create%20a%20new%20GitHub%20PAT%20at%20https%3A%2F%2Fgithub.com%2Fsettings%2Fpersonal-access-tokens%2Fnew%20with%20content-access.%20%0ANEXTAUTH_SECRET%20can%20be%20generated%20with%3A%20%60openssl%20rand%20-hex%2032%60&envLink=https%3A%2F%2Fgithub.com%2Fksvirsky%2Fsafu-module-template%2Fblob%2Fmain%2FREADME.md%23environment-variable-setup&project-name=safety-module-demo&repository-name=safety-module-demo&stores=%5B%7B%22type%22%3A%22kv%22%7D%5D&)
 
 ### Environment Variable Setup
 

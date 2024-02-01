@@ -26,7 +26,19 @@ export const TabContent: TinaField = {
       label: "Text Block",
       name: "text",
       fields: [
-        { type: "rich-text", name: "content", label: "Text content" },
+        {
+          type: "rich-text", name: "content", label: "Text content", templates: [
+            {
+              name: "RequestInsurance",
+              label: "Request Insurance Button",
+              fields: [{
+                name: "title",
+                label: "Title",
+                type: "string",
+              }],
+            },
+          ]
+        },
       ],
     },
     {

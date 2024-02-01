@@ -7,7 +7,7 @@ export const FaqCollection: Collection = {
   name: "faq",
   label: "FAQ",
   path: "content/faq",
-  format: "md",
+  format: "mdx",
   ui: {
     router: ({ document }) => {
       return `${document._sys.filename}`

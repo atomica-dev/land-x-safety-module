@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@tinacms/cli": "^1.5.34",
-    "@tinacms/datalayer": "^1.2.29",
+    "@tinacms/datalayer": "1.2.32",
     "next": "^14.0.3",
     "next-auth": "^4.24.5",
     "next-tinacms-s3": "^1.3.13",
@@ -29,7 +29,7 @@
     "react-dom": "18.2.0",
     "tinacms": "1.5.28",
     "tinacms-authjs": "1.0.5",
-    "tinacms-gitprovider-github": "^1.0.0",
+    "tinacms-gitprovider-github": "1.0.3",
     "typescript": "5.0.4",
     "upstash-redis-level": "^1.1.1"
   }

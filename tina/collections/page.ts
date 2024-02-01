@@ -7,7 +7,7 @@ export const PageCollection: Collection = {
   name: "page",
   label: "Page",
   path: "content/pages",
-  format: "md",
+  format: "mdx",
   ui: {
     router: ({ document }) => {
       // navigate to the home page
