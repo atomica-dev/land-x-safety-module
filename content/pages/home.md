@@ -15,7 +15,7 @@ menuItems:
 clientLogo:
   url: 'https://reports.atomica.org/landX/LandX_Logo_WEB_06.png'
   alt: landx.fi
-header: Landx Safety Module
+header: LandX Safety Module
 poweredByHeader: Powered by
 poweredByLogo:
   url: /atomica.logo.svg
