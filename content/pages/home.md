@@ -14,7 +14,7 @@ menuItems:
     _template: faq
 clientLogo:
   url: 'https://reports.atomica.org/landX/LandX_Logo_WEB_06.png'
-  alt: ''
+  alt: landx.fi
 header: ''
 poweredByHeader: Powered by
 poweredByLogo:
