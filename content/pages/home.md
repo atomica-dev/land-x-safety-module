@@ -32,12 +32,13 @@ items:
     updatedAt: 2024-01-31T23:00:00.000Z
     _template: dashboard
   - content: >
-      For stakers, LandX Safety Module provides a selection of staking pools.
-      Stakers are earning staking rewards which is Real Yield - a share of LandX
-      Protocol fees. Just like on most staking platforms, there is a small
-      probability that stake may get slashed should LandX protocol suffer from a
-      shortfall event greater than LandX DAO Insurance Fund. [Learn more](/faq
-      "Frequently ask questions")
+      The LandX Safety Module introduces a staking pool to the LandX community,
+      allowing stakers the opportunity to earn rewards from insurance premiums
+      and LandX incentives. Stakers can earn staking rewards from the paid
+      insurance premiums and LandX incentives. Staking on the module carries a
+      small risk of stake slashing in the case of a LandX shortfall event.\
+
+      [Learn more](/faq "Frequently ask questions")
     _template: text
   - url: >-
       https://app.atomica.org/pool-list-internal?chainId=42161&product=&poolTags=&poolIdList=0x0ae684c27b674d9b73a2debbe4a72fabee5a173b&marketId=&featureOverrides=%7B%22poolList.showFilterPanel%22%3Afalse%2C%22pool.sections.showAnalytics%22%3Afalse%2C%22pool.sections.showSettlement%22%3Afalse%2C%22pool.sections.showDetails%22%3Afalse%2C%22pool.sections.showMarkets%22%3Afalse%2C%22poolList.columnConfigs.columnList%22%3A%5B%22pool-name%22%2C%22pool-token%22%2C%22apy%22%2C%22capacity%22%2C%22utilization%22%2C%22pool-limit%22%2C%22balance%22%2C%22rewards%22%2C%22controls%22%5D%7D
