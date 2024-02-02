@@ -2,6 +2,7 @@
 import React from "react";
 import { TinaField, wrapFieldsWithMeta } from "tinacms";
 import { useCMS } from 'tinacms';
+
 export const CustomTinaImageField: TinaField = {
   type: "image",
   name: "url",
@@ -59,7 +60,7 @@ export const CustomTinaImageField: TinaField = {
           />
         </div>
       )
-    }),
+    }) as any,
   },
 };
 
