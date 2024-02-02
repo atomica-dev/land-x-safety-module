@@ -2,6 +2,7 @@ import { Collection } from "tinacms";
 import { MenuField } from "../templates/menu";
 import { Tabs } from "../templates/tabs";
 import { TabContent } from "../templates/tab-content";
+import { CustomTinaImageField } from "../templates/custom-tina-image-field";
 
 export const PageCollection: Collection = {
   name: "page",
@@ -25,7 +26,7 @@ export const PageCollection: Collection = {
       name: "clientLogo",
       label: "Client Logo",
       fields: [
-        { type: "image", name: "url", label: "URL" },
+        CustomTinaImageField,
         { type: "string", name: "alt", label: "Alt Text" },
       ],
     },
@@ -44,7 +45,7 @@ export const PageCollection: Collection = {
       name: "poweredByLogo",
       label: "Powered By Logo",
       fields: [
-        { type: "image", name: "url", label: "URL" },
+        CustomTinaImageField,
         { type: "string", name: "alt", label: "Alt Text" },
       ],
     },
