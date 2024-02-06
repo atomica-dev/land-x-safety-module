@@ -28,6 +28,7 @@ export const PageCollection: Collection = {
       fields: [
         CustomTinaImageField,
         { type: "string", name: "alt", label: "Alt Text" },
+        { type: "string", name: "target", label: "Navigate on click" },
       ],
     },
     {
@@ -47,6 +48,7 @@ export const PageCollection: Collection = {
       fields: [
         CustomTinaImageField,
         { type: "string", name: "alt", label: "Alt Text" },
+        { type: "string", name: "target", label: "Navigate on click" },
       ],
     },
 

@@ -18,12 +18,12 @@ export function Page(props: {
   const homeData = (!props.homeData || props.data === props.homeData) ? data : props.homeData;
 
   return (
-    <main className="flex min-h-screen flex-col items-center max-w-screen-xl mx-auto">
+    <main className="flex w-full min-h-screen flex-col items-center mx-auto">
       <PageHeader pageData={homeData}>
-        {homeData?.page.menuItems && <div data-tina-field={tinaField(homeData.page, "menuItems")}><Menu items={homeData.page.menuItems} /></div>}
+        {homeData?.page.menuItems && <Menu items={homeData.page.menuItems} />}
       </PageHeader>
 
-      <div className="w-full flex flex-col">
+      <div className="w-full flex flex-col max-w-screen-xl">
 
         <div className="w-full items-center flex flex-col">
           {data.page.tabs?.length && <div className="w-full justify-center flex flex-row border-b border-gray-300 mb-4 mt-8">

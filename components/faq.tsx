@@ -20,12 +20,12 @@ export function Faq(props: {
   const [currentTabIndex, setCurrentTabIndex] = useState(0);
 
   return (
-    <main className="flex min-h-screen flex-col max-w-screen-xl mx-auto">
+    <main className="flex w-full min-h-screen flex-col mx-auto">
       <PageHeader pageData={homeData}>
         {homeData?.page.menuItems && <Menu items={homeData.page.menuItems} />}
       </PageHeader>
 
-      <div className="flex mx-6 flex-col justify-between grow">
+      <div className="flex max-w-screen-xl mx-6 flex-col justify-between grow">
         <div className="flex flex-col lg:flex-row my-4">
           <div
             data-tina-field={tinaField(data?.faq, "title")}

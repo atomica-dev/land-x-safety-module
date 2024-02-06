@@ -36,6 +36,10 @@ body {
   margin: auto 0.5rem;
 }
 
+.c-menu {
+  margin-bottom: -25px;
+}
+
 .c-menu a {
   user-select: none;
   -webkit-user-drag: none;

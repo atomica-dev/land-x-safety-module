@@ -10,17 +10,20 @@ export function PageHeader(props: { pageData: PageQuery | undefined; children?: 
     return <>{props.children}</>;
   }
 
-  return (<div className="py-2 z-10 w-full items-center justify-between text-sm flex border-b">
+  return (<div className="py-2 z-10 w-full items-center justify-between text-sm flex border-b bg-black text-white">
     <div className="ml-6 flex items-center text-sm">
-      {page.clientLogo?.url && <img
-        data-tina-field={tinaField(page.clientLogo, "url")}
-        className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-        src={page.clientLogo?.url || ""}
-        alt={page.clientLogo?.alt || ""}
-        width={100}
-        height={20}
-      />}
-
+      {page.clientLogo?.url && <a
+        href={page.clientLogo?.target || "#"}
+        >
+          <img
+            data-tina-field={tinaField(page.clientLogo, "url")}
+            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+            src={page.clientLogo?.url || ""}
+            alt={page.clientLogo?.alt || ""}
+            width={100}
+            height={20}
+          />
+        </a>}
       <div
         data-tina-field={tinaField(page, "header")}
         className="mx-4"
