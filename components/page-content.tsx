@@ -4,27 +4,38 @@ import {
   PageItemsDashboard,
   PageItemsMarketWidget,
   PageItemsPoolWidget,
+  PageItemsTabs,
+  PageItemsTabsTabsItems,
+  PageItemsTabsTabsItemsDashboard,
+  PageItemsTabsTabsItemsMarketWidget,
+  PageItemsTabsTabsItemsPoolWidget,
+  PageItemsTabsTabsItemsText,
   PageItemsText,
-  PageTabsItems,
-  PageTabsItemsDashboard,
-  PageTabsItemsMarketWidget,
-  PageTabsItemsPoolWidget,
-  PageTabsItemsText,
 } from "../tina/__generated__/types";
 import { Dashboard } from "./dashboard";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { RequestInsurance } from "./request-insurance";
+import { Tabs } from "./tabs";
 
 
-export function TabContent(props: { items: Array<PageItems | PageTabsItems | null> | null | undefined }) {
+export function PageContent(props: { items: Array<PageItems | PageItemsTabsTabsItems | null> | null | undefined }) {
   return (<>
     {props.items?.map((item, index) => {
       if (!item?.__typename) {
         return <></>;
       }
 
-      if (["PageTabsItemsDashboard", "PageItemsDashboard"].includes(item.__typename)) {
-        const component = item as PageTabsItemsDashboard | PageItemsDashboard;
+      if (["PageItemsTabs"].includes(item.__typename)) {
+        const component = item as PageItemsTabs;
+
+        return <div className="mb-4" key={index + item.__typename}
+          data-tina-field={tinaField(item)}>
+          <Tabs component={component} />
+        </div>;
+      }
+
+      if (["PageItemsTabsTabsItemsDashboard", "PageItemsDashboard"].includes(item.__typename)) {
+        const component = item as PageItemsTabsTabsItemsDashboard | PageItemsDashboard;
 
         return <div className="mb-4" key={index + item.__typename}
           data-tina-field={tinaField(item)}
@@ -32,8 +43,8 @@ export function TabContent(props: { items: Array<PageItems | PageTabsItems | nul
             item={component}
           /></div>;
       }
-      if (["PageTabsItemsText", "PageItemsText"].includes(item.__typename)) {
-        const component = item as PageTabsItemsText | PageItemsText;
+      if (["PageItemsTabsTabsItemsText", "PageItemsText"].includes(item.__typename)) {
+        const component = item as PageItemsTabsTabsItemsText | PageItemsText;
 
         return <div
           data-tina-field={tinaField(component, "content")}
@@ -47,8 +58,8 @@ export function TabContent(props: { items: Array<PageItems | PageTabsItems | nul
           />
         </div>;
       }
-      if (["PageTabsItemsMarketWidget", "PageItemsMarketWidget"].includes(item.__typename)) {
-        const component = item as PageTabsItemsMarketWidget | PageItemsMarketWidget;
+      if (["PageItemsTabsTabsItemsMarketWidget", "PageItemsMarketWidget"].includes(item.__typename)) {
+        const component = item as PageItemsTabsTabsItemsMarketWidget | PageItemsMarketWidget;
 
         return <div className="mb-4 mx-6" key={index + item?.__typename} data-tina-field={tinaField(component, "url")}>
           <iframe
@@ -59,8 +70,8 @@ export function TabContent(props: { items: Array<PageItems | PageTabsItems | nul
             src={component.url ?? ""}
           /></div>;
       }
-      if (["PageTabsItemsPoolWidget", "PageItemsPoolWidget"].includes(item.__typename)) {
-        const component = item as PageTabsItemsPoolWidget | PageItemsPoolWidget;
+      if (["PageItemsTabsTabsItemsPoolWidget", "PageItemsPoolWidget"].includes(item.__typename)) {
+        const component = item as PageItemsTabsTabsItemsPoolWidget | PageItemsPoolWidget;
 
         return <div className="mb-4 mx-6" key={index + item?.__typename} data-tina-field={tinaField(component, "url")}>
           <iframe

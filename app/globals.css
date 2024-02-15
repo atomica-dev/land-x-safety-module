@@ -25,26 +25,33 @@ body {
 .md-text a {
   text-decoration: underline;
 }
-
 .md-text h6 {
   text-align: center;
   font-size: 0.75rem;
 }
-
+.md-text td {
+  border: 1px solid gray;
+  padding: 5px 10px;
+}
 .md-text img {
   display: inline;
   margin: auto 0.5rem;
+}
+.md-text strong {
+  font-weight: bold;
+}
+.md-text ol {
+  list-style: auto;
+  padding-left: 40px;
 }
 
 .c-menu {
   margin-bottom: -25px;
 }
-
 .c-menu a {
   user-select: none;
   -webkit-user-drag: none;
 }
-
 
 .c-text-input {
   color: darkblue;

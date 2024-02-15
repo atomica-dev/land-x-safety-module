@@ -1,8 +1,7 @@
 import { Collection } from "tinacms";
 import { MenuField } from "../templates/menu";
-import { Tabs } from "../templates/tabs";
-import { TabContent } from "../templates/tab-content";
 import { CustomTinaImageField } from "../templates/custom-tina-image-field";
+import { PageContent } from "../templates/page-content";
 
 export const PageCollection: Collection = {
   name: "page",
@@ -51,9 +50,12 @@ export const PageCollection: Collection = {
         { type: "string", name: "target", label: "Navigate on click" },
       ],
     },
+    {
+      type: "rich-text",
+      name: "footer",
+      label: "Footer",
+    },
 
-    TabContent,
-
-    Tabs,
+    PageContent,
   ],
 };

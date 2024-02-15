@@ -1,11 +1,11 @@
 "use client";
 
 import { PageQuery } from "../tina/__generated__/types";
-import { useState } from "react";
 import { tinaField, useTina } from "tinacms/dist/react";
+import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { Menu } from "./menu";
 import { PageHeader } from "./page-header";
-import { TabContent } from "./tab-content";
+import { PageContent } from "./page-content";
 
 export function Page(props: {
   data: PageQuery;
@@ -14,7 +14,6 @@ export function Page(props: {
   homeData?: PageQuery;
 }) {
   const { data } = useTina(props);
-  const [currentTabIndex, setCurrentTabIndex] = useState(0);
   const homeData = (!props.homeData || props.data === props.homeData) ? data : props.homeData;
 
   return (
@@ -26,28 +25,20 @@ export function Page(props: {
       <div className="w-full flex flex-col max-w-screen-xl">
 
         <div className="w-full items-center flex flex-col">
-          {data.page.tabs?.length && <div className="w-full justify-center flex flex-row border-b border-gray-300 mb-4 mt-8">
-            {data.page.tabs?.map((tab, index) => {
-              return (
-                <div
-                  key={tab?.title}
-                  className={`text-sm py-4 mr-6 ${index === currentTabIndex ? "tab-header--current-tab font-medium border-b-2 border-orange-700 text-black" : "text-gray-700"}`}
-                  onClick={() => setCurrentTabIndex(index)}
-                  data-tina-field={tinaField(tab!, "title")}
-                > {tab?.title}</div>);
-            })
-            }
-          </div> || ""}
-
-          {data.page.tabs?.[currentTabIndex] && <div className="mx-4" data-tina-field={tinaField(data.page, "tabs", currentTabIndex)}>
-            <TabContent items={data.page.tabs[currentTabIndex]?.items} />
-          </div>}
-
           {data.page.items && <div className="w-full" data-tina-field={tinaField(data.page, "items")}>
-            <TabContent items={data.page.items} />
+            <PageContent items={data.page.items} />
           </div>}
         </div>
 
+      </div>
+
+      <div
+        data-tina-field={tinaField(homeData.page, "footer")}
+        className="mb-2 mx-6 text-gray-600 text-base md-text"
+      >
+        <TinaMarkdown
+          content={homeData.page?.footer}
+        />
       </div>
     </main >
   );
