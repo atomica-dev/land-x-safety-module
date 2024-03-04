@@ -25,7 +25,7 @@ export function Dashboard(props: {
     </div>
     {updatedAt &&
       <div
-        className="flex w-full text-xs font-medium justify-start mx-6 my-4"
+        className="flex text-xs font-medium justify-start mx-6 my-4"
         data-tina-field={tinaField(props.item, "updatedAt")}
       >
         Last updated: {new Date(updatedAt).toLocaleString()}
