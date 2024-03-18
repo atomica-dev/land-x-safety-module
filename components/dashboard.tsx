@@ -2,11 +2,15 @@
 
 import { tinaField } from "tinacms/dist/react";
 import { PageItemsDashboard, PageItemsTabsTabsItemsDashboard } from "../tina/__generated__/types";
+import { useEffect, useState } from "react";
 
 export function Dashboard(props: {
   item: PageItemsTabsTabsItemsDashboard | PageItemsDashboard
 }) {
   const { dashboardItems, updatedAt } = props.item;
+  const [lastUpdatedDate, setLastUpdatedDate] = useState("");
+
+  useEffect(() => setLastUpdatedDate(updatedAt && new Date(updatedAt).toLocaleString() || ""), [updatedAt]);
 
   return (<>
     <div className="flex rounded-lg border border-gray-300 mt-8 mx-6 items-stretch flex-wrap justify-center justify-items-stretch">
@@ -28,7 +32,7 @@ export function Dashboard(props: {
         className="flex text-xs font-medium justify-start mx-6 my-4"
         data-tina-field={tinaField(props.item, "updatedAt")}
       >
-        Last updated: {new Date(updatedAt).toLocaleString()}
+        Last updated: {lastUpdatedDate}
       </div>
     }
   </>);
