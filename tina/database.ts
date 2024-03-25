@@ -36,6 +36,7 @@ export default isLocal
           token: (process.env.KV_REST_API_TOKEN as string) || "example_token",
         },
         debug: process.env.DEBUG === "true" || false,
+        namespace: process.env.KV_NAMESPACE,
       }),
       namespace: branch,
     });
