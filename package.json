@@ -27,7 +27,7 @@
     "next-tinacms-s3": "^1.3.13",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tinacms": "1.5.28",
+    "tinacms": "1.6.1",
     "tinacms-authjs": "1.0.5",
     "tinacms-gitprovider-github": "1.0.3",
     "typescript": "5.0.4",
