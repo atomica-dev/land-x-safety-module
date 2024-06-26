@@ -55,5 +55,19 @@ export const TabContent: TinaField = {
         { type: "string", name: "url", label: "URL" },
       ]
     },
+    {
+      label: "Custom Widget",
+      name: "customWidget",
+      fields: [
+        { type: "string", name: "widgetProps", label: "Widget props" },
+      ]
+    },
+    {
+      label: "Alert",
+      name: "alert",
+      fields: [
+        { type: "string", name: "message", label: "Message" },
+      ]
+    },
   ],
 };

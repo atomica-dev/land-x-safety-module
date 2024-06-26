@@ -15,6 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <script src="https://sdk.atomica.org/rm-widget.js" defer />
+        <link rel="stylesheet" href="https://sdk.atomica.org/rm-widget.css" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
