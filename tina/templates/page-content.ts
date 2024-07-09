@@ -74,7 +74,7 @@ export const PageContent: TinaField = {
       label: "Alert",
       name: "alert",
       fields: [
-        { type: "string", name: "message", label: "Message" },
+        { type: "rich-text", name: "message", label: "Message" },
       ]
     },
   ],
